@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Intermediate\\ProjectFiles\\WarriorOfTheWorld.vcxproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
