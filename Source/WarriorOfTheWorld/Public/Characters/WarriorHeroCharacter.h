@@ -12,6 +12,7 @@ class UCameraComponent;
 class UDataAsset_InputConfig;
 struct FInputActionValue;
 class UHeroCombotComponent;
+class UHeroUIComponent;
 
 /**
  * 
@@ -23,6 +24,15 @@ class WARRIOROFTHEWORLD_API AWarriorHeroCharacter : public AWarriorBaseCharacter
 
 public:
 	AWarriorHeroCharacter();
+
+	//~ Begin IPawnCombatInterface
+	virtual UPawnCombotComponent* GetPawnCombotComponent() const override;
+	//~ End IPawnCombatInterface
+
+	//~ Begin IPawnUIInterface
+	virtual UPawnUIComponent* GetPawnUIComponent() const override;
+	virtual UHeroUIComponent* GetHeroUIComponent() const override;
+	//~ End IPawnUIInterface
 
 protected:
 	//~ Begin APawn Interface.
@@ -43,6 +53,10 @@ private:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Combat", meta = (AllowPrivateAccess = "true"))
 	UHeroCombotComponent* HeroCombotComponent;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "UI", meta = (AllowPrivateAccess = "true"))
+	UHeroUIComponent* HeroUIComponent;
+
 
 #pragma endregion
 

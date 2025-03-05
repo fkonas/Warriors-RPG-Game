@@ -1,0 +1,50 @@
+Bölüm 4: Hero Combat
+
+51. Hero Combat Section Overview
+52. Challenges Ahead
+53. Setup Enemy Character
+54. Gruntling Guardian
+55. Asynchoronous Loading
+56. Spawn Enemy Weapon
+57. Attribute Set
+58. Gameplay Effect
+59. Apply Gameplay Effect To Self
+60. Init Enemy Attributes
+61. Pawn Combat Interface
+62. Toggle Weapon Collision
+63. On Weapon Begin Overlap
+64. On Target Interacted
+65. Notify Melee Hit
+66. Set Up Attack Montages
+67. Make Gameplay Effect Spec Handle
+68. Hero Damage Info
+69. Apply Effect Spec Handle To Target
+70. Capture Relevant Attributes
+71. Retrieve Hero Damage Info
+72. Calculate Final Damage Done
+73. Set Up Heavy Attacks For Damage
+74. Modify Health Attribute
+75. Hit React Ability
+76. Trigger Hit React Ability
+77. Material Hit FX
+78. Hit Pause
+79. Camera Shake
+80. Hit React Sound
+81. Gameplay Cues
+82. Enemy Death Ability
+83. BP Death Interface
+84. Dissolve Material FX
+85. Dissolve Niagara FX
+86. Share Task: Share Your Progress
+87. Pawn UI Component
+88. Broadcast Value Change
+89. Listen For Broadcasting
+90. Enemy Init Created Widget
+91. Template Widgets
+92. Set Status Bar Fill Color
+93. Template Icon Slot Widget
+94. Hero Overlay Widget
+95. Enemy Health Widget Component
+96. Hide Enemy Health Bar
+97. Update Weapon Icon
+98. Final Tweaking
