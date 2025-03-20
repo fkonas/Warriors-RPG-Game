@@ -13,5 +13,9 @@ UCLASS()
 class WARRIOROFTHEWORLD_API UEnemyCombotComponent : public UPawnCombotComponent
 {
 	GENERATED_BODY()
+
+public:
+	virtual void OnHitTargetActor(AActor* HitActor) override;
+
 	
 };

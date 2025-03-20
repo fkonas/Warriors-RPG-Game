@@ -4,14 +4,26 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
+#include "GenericTeamAgentInterface.h"
 #include "WarriorHeroController.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class WARRIOROFTHEWORLD_API AWarriorHeroController : public APlayerController
+class WARRIOROFTHEWORLD_API AWarriorHeroController : public APlayerController, public IGenericTeamAgentInterface
 {
-	GENERATED_BODY()
+	GENERATED_BODY()					
+
+public:
+	AWarriorHeroController();
+
+	//~ Begin IGenericTeamAgentInterface Interface.
+	virtual FGenericTeamId GetGenericTeamId() const override;
+	//~ End IGenericTeamAgentInterface Interface.
+
+
+private:
+	FGenericTeamId HeroTeamID;
 	
 };

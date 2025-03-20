@@ -1,4 +1,4 @@
-Bölüm 4: Hero Combat
+Bölüm 4: Hero Combat ////////////////////////////////////////
 
 51. Hero Combat Section Overview
 52. Challenges Ahead
@@ -48,3 +48,51 @@ Bölüm 4: Hero Combat
 96. Hide Enemy Health Bar
 97. Update Weapon Icon
 98. Final Tweaking
+99. Share Task: Share Your Combat
+100. Section Wrap Up
+
+
+Bölüm 5: Enemy AI ////////////////////////////////////////
+
+101. Enemy AI Section Overview
+102. Preparing Enemy For Combat
+103. Crowd Following Component
+104. AI Perception
+105. Generic Team ID
+106. Behavior Tree
+107. Configure AI Avoidance
+108. Behavior Tree Node Types
+109. Observer Aborts
+110. Orient To Target Actor
+111. Environment Query System
+112. Custom Query Context
+113. Toggle Strafing State
+114. Calculate Direction
+115. Strafing Blend Space
+116. Compute Success Chance
+117. Dot Product Test
+118. Enemy Melee Ability
+119. Activate Ability By Tag
+120. Is Target Pawn Hostile
+121. Notify Melee Hit
+122. Make Enemy Damage Effect Spec Handle
+123. Apply Enemy Damage
+124. Motion Warping
+125. Update Motion Warp Target
+126. Construct Native BT Task
+127. Rotate Enemy In Task
+128. Melee Attack Branch
+129. Does Actor Have Tag Decorator
+130. Duration Gameplay Effect
+131. Should Abort All Logic
+132. Guardian Attack Sound FX
+133. Share Task: Share Your AI
+134. Section Wrap Up
+
+
+
+
+
+
+
+
