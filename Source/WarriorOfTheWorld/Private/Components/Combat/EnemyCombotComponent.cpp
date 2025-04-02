@@ -4,6 +4,7 @@
 #include "Components/Combat/EnemyCombotComponent.h"
 #include "AbilitySystemBlueprintLibrary.h"
 #include "WarriorGameplayTags.h"
+#include "WarriorFunctionLibrary.h"
 
 #include "WarriorDebugHelper.h"
 
@@ -20,12 +21,12 @@ void UEnemyCombotComponent::OnHitTargetActor(AActor* HitActor)
 
 	bool bIsValidBlock = false;
 
-	const bool bIsPlayerBlocking = false;
+	const bool bIsPlayerBlocking = UWarriorFunctionLibrary::NativeDoesActorHaveTag(HitActor, WarriorGameplayTags::Player_Status_Blocking);
 	const bool bIsMyAttackUbblockable = false;
 
 	if (bIsPlayerBlocking && !bIsMyAttackUbblockable)
 	{
-		//TODO:: check if the block is valid
+		bIsValidBlock = UWarriorFunctionLibrary::IsValidBlock(GetOwningPawn(), HitActor);
 	}
 
 	FGameplayEventData EventData;
@@ -34,7 +35,11 @@ void UEnemyCombotComponent::OnHitTargetActor(AActor* HitActor)
 
 	if (bIsValidBlock)
 	{
-		//TODO:: Handle successful block
+		UAbilitySystemBlueprintLibrary::SendGameplayEventToActor(
+			HitActor,
+			WarriorGameplayTags::Player_Event_SuccessfulBlock,
+			EventData
+		);
 	}
 	else
 	{

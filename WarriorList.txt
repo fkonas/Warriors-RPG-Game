@@ -90,6 +90,50 @@ Bölüm 5: Enemy AI ////////////////////////////////////////
 134. Section Wrap Up
 
 
+Bölüm 6: Hero Combat Abilities ////////////////////////////////////////
+
+135. Hero Combat Abilities Section Overview
+136. Planning Ahead
+137. Two-Key Input Action
+138. Get Last Movement Input
+139. Rolling Distance
+140. Get Value At Level
+141. Rolling Sound FX
+142. Hero Hit React Ability
+143. Trigger Hero Hit React
+144. Hero Hit FX
+145. Compute Hit React Direction
+146. Hit React Tags
+147. Switch On Gameplay Tags
+148. Hit React Sound FX
+149. Hero Block Ability
+150. Add Gameplay Cue To Owner
+151. Is Valid Block
+152. Notify Successful Block
+153. Handle Successful Block
+154. Is Perfect Block
+155. Notify Perfect Block
+156. Initiate Counterattack
+157. Share Task: Share Your Block Ability
+158. Set Up Target Lock Ability
+159. Toggle Target Lock
+160. Get Available Targets
+161. Get Nearest Target
+162. Draw Target Lock Widget
+163. Set Target Lock Widget Position
+164. Execute Task On Tick
+165. On Target Lock Tick
+166. Orient To Target While Target Lock
+167. Switch To Target Lock Poses
+168. Target Lock Walk Speed
+169. Switch Target Input Action
+170. Target Lock Mapping Context
+171. Notify Switch Target
+172. Handle Switch Target
+173. Hero Death
+174. Tweaking Target Lock
+175. Share Task: Share Your Target Lock Ability
+176. Section Wrap Up
 
 
 
