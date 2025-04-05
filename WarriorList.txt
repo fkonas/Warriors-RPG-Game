@@ -136,6 +136,29 @@ Bölüm 6: Hero Combat Abilities ////////////////////////////////////////
 176. Section Wrap Up
 
 
+Bölüm 7: Ranged Enemy ////////////////////////////////////////
+
+177. Ranged Enemy Section Overview
+178. Ranged Enemy Starting Weapon
+179. Glacer Starting Stats
+180. Glacer Hit React
+181. Ranged Behavior Tree
+182. Find Shooting Position
+183. Projectile Ability
+184. Projectile Class
+185. Spawning Projectile
+186. On Projectile Hit
+187. Handle Projectile Hit
+188. Projectile Spec Handle
+189. Make Projectile Spec Handle
+190. Projectile Sound FX
+191. Glacer Melee Ability
+192. Unblockable Attack
+193. Share Task: Share Your Ranged Enemy
+194. Combat Test Map
+195. Section Wrap Up
+
+
 
 
 

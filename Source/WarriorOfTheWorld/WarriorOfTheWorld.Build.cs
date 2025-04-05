@@ -17,7 +17,8 @@ public class WarriorOfTheWorld : ModuleRules
             "EnhancedInput",
             "GameplayTasks",
 			"AnimGraphRuntime",
-			"MotionWarping"});
+			"MotionWarping",
+			"Niagara"});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
