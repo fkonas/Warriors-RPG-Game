@@ -17,5 +17,8 @@ class WARRIOROFTHEWORLD_API UEnemyCombotComponent : public UPawnCombotComponent
 public:
 	virtual void OnHitTargetActor(AActor* HitActor) override;
 
+protected:
+	virtual void ToggleBodyCollisionBoxCollision(bool bShouldEnable, EToggleDamageType ToggleDamageType) override;
+
 	
 };

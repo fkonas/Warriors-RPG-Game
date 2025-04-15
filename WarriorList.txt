@@ -158,8 +158,33 @@ Bölüm 7: Ranged Enemy ////////////////////////////////////////
 194. Combat Test Map
 195. Section Wrap Up
 
+Bölüm 8: Boss Enemy ////////////////////////////////////////
 
-
-
+196. Boss Enemy Section Overview
+197. Set Up Boss Character
+198. Giant Starting Stats
+199. Boss Bar Widget
+200. Draw Boss Bar To Screen
+201. Giant Hit React
+202. Giant Death
+203. Remove Boss Bar
+204. Giant Behavior Tree
+205. Giant Melee Ability
+206. Hand Collision Box
+207. Post Edit Change Property
+208. Toggle Box Collision
+209. Giant Second Melee Ability
+210. Giant Combo
+211. Wait Spawn Enemies
+212. Summon Ability
+213. Listen For Gameplay Event
+214. Async Load And Spawn Enemies
+215. Fix Facing Rotation
+216. Stop Spawning Enemies
+217. Enemy Entry FX
+218. Enemy Entry Montage
+219. Check Current Health Percent
+220. Share Task: Share Your Boss Fight
+221. Section Wrap Up
 
 
