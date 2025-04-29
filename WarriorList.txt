@@ -188,3 +188,34 @@ Bölüm 8: Boss Enemy ////////////////////////////////////////
 221. Section Wrap Up
 
 
+Bölüm 9: Hero Special Abilities ////////////////////////////////////////
+
+222. Hero Special Abilities Section Overview
+223. Challenges Ahead
+224. Rage Ability Tags
+225. Rage Ability Blueprint
+226. Rage Anim Montage
+227. Rage Gameplay Cue
+228. Activation Condition
+229. Consume Rgae
+230. Set Up Rage Slash
+231. Spawn Rage Slash
+232. On Rage Slash Begin Overlap
+233. Rage Slash For All Attacks
+234. Gain Rage
+235. Special Weapon Ability Tags
+236. Grant Special Weapon Ability
+237. Light Ability Montage
+238. Light Ability Damage
+239. Cooldown Gameplay Effect
+240. Ability Icon Widget
+241. On Ability Icon Updated
+242. Listen For Ability Icon Change
+243. Notify Ability Cooldown
+244. Custom Latent Action
+245. Count Down Action Class
+246. Construct Count Down Action
+247. Count Down Logic
+248. Update Cooldown
+249. Resume Cooldown
+250. Share Task: Share Your Ability Cooldown
